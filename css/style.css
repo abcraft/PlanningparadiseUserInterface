@@ -6538,6 +6538,12 @@ img {
   border: none;
 }
 
+@media (max-width: 768px)and (min-width: 0px) {
+  #whoweare{
+    background-image: none !important;
+  }
+}
+
 @media (max-width: 768px) {
   .service-cards .container{
     padding: 0 40px;
@@ -6564,6 +6570,22 @@ img {
     padding: 0px 15px !important;
     width: 100%;
   }
+
+  .img-left {
+    float: unset; 
+    
+}
+  .img-left,.img-right,.img-right2,.text-div{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  .img-left img,.img-right img,.img-right2 img{
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  
 }
 
 @media (max-width: 540px) {
@@ -6601,6 +6623,15 @@ img {
   .whychooseus-header img{
     display: none;
  }
+
+ #section-about {
+  background-size: 13% !important;
+ }
+
+  #explore-1{
+    background-size: 17% !important;
+  }
+
 }
 
 @media (max-width: 360px) {
@@ -6730,9 +6761,9 @@ img {
 /* ----====< Our Team >====---- */
 
 #our-team{
-  background: url(../images_02/background/floral-1.png)no-repeat top 0px left 0px, url(../images_02/background/floral-2.png) no-repeat top 0px right 0px;
-  background-color: #fefefe;
-  background-size: 23% !important;
+  background: url(../images_02/background/flowers2.png)no-repeat top 0px left 1px, url(../images_02/background/flowers1.png) no-repeat top 0px right 5px !important;
+      background-color: #fefefe !important;
+      background-size: 5% !important;
 }
 .directors-profile .director-content {
   padding: 50px 0 0 30px;
@@ -7459,9 +7490,9 @@ img {
 }
 
 #section-about{
-  background: url(../images_02/background/floral-1.png)no-repeat top 0px left 0px, url(../images_02/background/floral-2.png) no-repeat top 0px right 0px;
+  background: url(../images_02/background/flowers2.png)no-repeat top 0px left 1px, url(../images_02/background/flowers1.png) no-repeat top 0px right 5px;
   background-color: #fefefe;
-  background-size: 25% !important;
+  background-size: 5%;
 }
 
 #section-services{
@@ -7471,27 +7502,27 @@ img {
 }
 
 #explore-1{
-  background: url(../images_02/background/floral-1.png)no-repeat top 0px left 0px, url(../images_02/background/floral-2.png) no-repeat top 0px right 0px;
-  background-color: #fefefe;
-  background-size: 23% !important;
+  background: url(../images_02/background/flowers2.png)no-repeat top 0px left 1px, url(../images_02/background/flowers1.png) no-repeat top 0px right 5px ;
+  background-color: #fefefe ;
+  background-size: 7% !important;
 }
 
 #whoweare{
-  background: url(../images_02/background/flowers2.png)no-repeat top 200px left 1px, url(../images_02/background/flowers1.png) no-repeat top 0px right 5px !important;
-  background-color: #eeeeee !important;
-background-size: 5% !important;
+  background: url(../images_02/background/flowers2.png)no-repeat top 350px left 1px, url(../images_02/background/flowers1.png) no-repeat top 10px right 5px ;
+  background-color: #eeeeee;
+background-size: 5% ;
 }
 
 #service-cards{
-  background: url(../images_02/background/floral-1.png)no-repeat top 0px left 0px, url(../images_02/background/floral-2.png) no-repeat top 0px right 0px;
-  background-color: #fefefe;
-  background-size: 23% !important;
+  background: url(../images_02/background/flowers2.png)no-repeat top 0px left 1px, url(../images_02/background/flowers1.png) no-repeat top 0px right 5px ;
+  background-color: #fefefe ;
+  background-size: 5% !important;
 }
 
 .service-cards{
-  background: url(../images_02/background/floral-1.png)no-repeat top 0px left 0px, url(../images_02/background/floral-2.png) no-repeat top 0px right 0px !important;
-  background-color: #fefefe;
-  background-size: 23% !important;
+  background: url(../images_02/background/flowers2.png)no-repeat top 0px left 1px, url(../images_02/background/flowers1.png) no-repeat top 0px right 5px ;
+  background-color: #fefefe ;
+  background-size: 5% !important;
 }
 
 #custom-owl-slider .item .overlay{
@@ -7508,7 +7539,6 @@ background-size: 5% !important;
 /* ==--Testimonials--== */
 #testimonial{
   padding: 40px 0px;
- 
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 74%),url(../images/background/services.jpg);
   background-size: cover;
 }
@@ -7546,6 +7576,10 @@ background-size: 5% !important;
   text-align: center;
 }
 
+.destination-bg .destination-text p{
+  color: #fff;
+}
+
 #destination-content .destination-title h2{
   margin-bottom: 30px;
 }
@@ -7554,22 +7588,26 @@ background-size: 5% !important;
 
 /* ======== Who We Are ========== */
 
-.whoweare .col-md-4{
+.whoweare .col-md-3{
   padding-right: 0px;
     padding-left:0px;
 }
 
-.img-left,.img-right{
+
+.img-left,.img-right,.img-right2,.text-div{
   width: 100%;
+  height: 530px;
 }
 
-.img-left img,.img-right img{
+.img-left img,.img-right img,.img-right2 img{
   width: 100%;
+  height: 100%;
 }
 
 .text-div{
-  padding: 0 30px;
- margin-top: 20%;
+  padding: 60px 20px;
+ background-color: #dab6fc;
+ margin-top: 5px;
 }
 
 .text-div .heading-hr{
