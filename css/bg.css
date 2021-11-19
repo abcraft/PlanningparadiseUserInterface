@@ -26,8 +26,12 @@ background-size: 100% !important;
 .page-story #subheader{background-image:url(../images/background/subheader-2.jpg);}
 .page-event #subheader{background-image:url(../images/background/subheader-3.jpg);}
 .page-people #subheader{background-image:url(../images/background/subheader-4.jpg);}
-.page-gallery #subheader{background-image:url(../images/background/subheader-5.jpg);}
+.page-gallery #subheader{background-image:url(../images/background/galleryBanner.jpg);}
 .page-journal #subheader{background-image:url(../images/background/subheader-6.jpg);}
+#subheader.subheader_04{background-image:url(../images/background/blog-banner.jpg);}
+#subheader.subheader_02{background-image:url(../images/background/aboutUsBanner.jpg); background-position: center !important; background-size: cover !important; background-repeat: no-repeat !important;}
+#subheader.subheader_03{background-image:url(../images/background/serviceBanner.jpg); background-position: center !important; background-size: cover !important; background-repeat: no-repeat !important;}
+
 #subheader.destination-bg{background-color: #ffffff; background-image: linear-gradient(180deg, #000000 5%, #ffffff 85%);}
 
 #subheader.subheader_03{background-image:url(../images/background/services.jpg); background-position: center !important; background-size: cover !important; background-repeat: no-repeat !important;}

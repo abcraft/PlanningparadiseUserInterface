@@ -7492,7 +7492,7 @@ img {
 #section-about{
   background: url(../images_02/background/flowers2.png)no-repeat top 0px left 1px, url(../images_02/background/flowers1.png) no-repeat top 0px right 5px;
   background-color: #fefefe;
-  background-size: 5%;
+  background-size: 5% !important;
 }
 
 #section-services{
@@ -7510,7 +7510,7 @@ img {
 #whoweare{
   background: url(../images_02/background/flowers2.png)no-repeat top 350px left 1px, url(../images_02/background/flowers1.png) no-repeat top 10px right 5px ;
   background-color: #eeeeee;
-background-size: 5% ;
+background-size: 5% !important;
 }
 
 #service-cards{
@@ -7608,6 +7608,9 @@ background-size: 5% ;
   padding: 60px 20px;
  background-color: #dab6fc;
  margin-top: 5px;
+}
+.text-div p{
+ color: #000;
 }
 
 .text-div .heading-hr{
